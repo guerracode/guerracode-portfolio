@@ -5,7 +5,7 @@ import '../styles/components/Layout.css';
 const Layout = ({ children }) => (
   <div className="Main">
     <NavBar />
-    {children}
+    <div className="Main__content">{children}</div>
   </div>
 );
 

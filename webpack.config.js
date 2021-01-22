@@ -35,6 +35,23 @@ module.exports = {
           'css-loader',
         ],
       },
+      {
+        test: /\.(jpg|png)$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            outputPath: 'assets/',
+          },
+          // loader: 'url-loader',
+          // options: {
+          //   limit: 8192,
+          // },
+        },
+      },
+      {
+        test: /\.svg$/,
+        use: ['@svgr/webpack'],
+      },
     ],
   },
   plugins: [
