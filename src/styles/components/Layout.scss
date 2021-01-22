@@ -1,14 +1,16 @@
+@import '../App.scss';
+
 .Main {
   display: flex;
-  background-color: #222629;
+  background-color: $black;
   background-image: url('../../assets/images/Background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-}
 
-.Main__content {
-  width: calc(100% - 105px);
-  height: 100vh;
+  .Main__content {
+    width: calc(100% - 105px);
+    height: 100vh;
+  }
 }

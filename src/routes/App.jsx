@@ -10,7 +10,7 @@ import Portfolio from '../containers/Portfolio';
 import Contact from '../containers/Contact';
 import NotFound from '../containers/NotFound';
 
-import '../styles/App.css';
+import '../styles/App.scss';
 
 const App = () => {
   const initialState = useInitialState();

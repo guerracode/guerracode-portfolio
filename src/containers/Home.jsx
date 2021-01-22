@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/containers/Home.css';
+import '../styles/containers/Home.scss';
 import Github from '../assets/icons/Github.svg';
 import Linkedin from '../assets/icons/Linkedin.svg';
 import Twitter from '../assets/icons/Twitter.svg';
@@ -8,9 +8,9 @@ import Instagram from '../assets/icons/Instagram.svg';
 
 const Home = () => (
   <div className="home">
-    <h2>Hi,</h2>
+    <h3>Hi,</h3>
     <h1>I&#39;m Jose Luis Guerra</h1>
-    <h2>A Full Stack Developer</h2>
+    <h3>A Full Stack Developer</h3>
     <p>Frontend with React / Backend with Node</p>
     <div className="home__icons">
       <a href="https://github.com/guerracode" target="_blank" rel="noreferrer">

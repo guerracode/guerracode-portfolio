@@ -1,0 +1,28 @@
+@import '../App.scss';
+
+.skills {
+  @include section(5% 0 0 130px);
+
+  h2 {
+    @include title;
+  }
+
+  .skills__images {
+    display: grid;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    grid-template: {
+      columns: repeat(auto-fit, 100px);
+      rows: auto;
+    }
+    grid-column-gap: 150px;
+    grid-row-gap: 50px;
+
+    img {
+      height: 100px;
+      align-self: center;
+      justify-self: center;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+export default [
+  'JS',
+  'CSS',
+  'HTML',
+  'React',
+  'Sass',
+  'Jest',
+  'Node',
+  'MongoDB',
+  'Mysql',
+  'Postgres',
+  'GraphQL',
+  'Travis',
+  'AWS',
+  'GCP',
+  'figma',
+  'git',
+];

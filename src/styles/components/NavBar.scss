@@ -1,0 +1,31 @@
+@import '../App.scss';
+
+.navBar {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 105px;
+  border-right: 2px solid $green-mid;
+
+  ul {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+  }
+
+  ul li {
+    width: 100%;
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .navBar__icon {
+    width: 45px;
+    height: 45px;
+
+    &:hover {
+      width: 55px;
+      height: 55px;
+    }
+  }
+}

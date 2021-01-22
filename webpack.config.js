@@ -27,12 +27,13 @@ module.exports = {
         use: [{ loader: 'html-loader' }],
       },
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
           },
           'css-loader',
+          'sass-loader',
         ],
       },
       {

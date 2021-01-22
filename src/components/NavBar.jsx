@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-import '../styles/components/NavBar.css';
+import '../styles/components/NavBar.scss';
 import HomeIcon from '../assets/icons/Home.svg';
 import AboutIcon from '../assets/icons/About.svg';
 import SkillsIcon from '../assets/icons/Skills.svg';
