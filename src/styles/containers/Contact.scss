@@ -1,0 +1,30 @@
+@import '../App.scss';
+
+.contact {
+  @include section(5% 0 0 130px);
+
+  h2 {
+    @include title;
+    margin-bottom: 100px;
+  }
+
+  .contact__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+    h3 {
+      display: inline-block;
+      font-size: $h3;
+      font-weight: 400;
+      line-height: 5.6rem;
+    }
+
+    img {
+      width: 60px;
+      height: auto;
+      margin-right: 35px;
+    }
+  }
+}

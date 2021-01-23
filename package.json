@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/guerracode/guerracode-portfolio#readme",
   "dependencies": {
+    "html-react-parser": "^1.2.1",
     "react": "^17.0.1",
+    "react-alice-carousel": "^2.2.2",
     "react-dom": "^17.0.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0"

@@ -36,6 +36,16 @@ module.exports = {
           'sass-loader',
         ],
       },
+      // {
+      //   test: /\.css$/,
+      //   use: [
+      //     {
+      //       loader: MiniCssExtractPlugin.loader,
+      //     },
+      //     // 'style-loader',
+      //     'css-loader',
+      //   ],
+      // },
       {
         test: /\.(jpg|png)$/,
         use: {

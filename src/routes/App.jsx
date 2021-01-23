@@ -8,6 +8,7 @@ import About from '../containers/About';
 import Skills from '../containers/Skills';
 import Portfolio from '../containers/Portfolio';
 import Contact from '../containers/Contact';
+import Project from '../containers/Project';
 import NotFound from '../containers/NotFound';
 
 import '../styles/App.scss';
@@ -24,6 +25,7 @@ const App = () => {
             <Route exact path="/skills" component={Skills} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/project" component={Project} />
             <Route component={NotFound} />
           </Switch>
         </Layout>

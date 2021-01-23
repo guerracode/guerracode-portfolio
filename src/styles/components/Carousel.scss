@@ -1,0 +1,77 @@
+@import '../App.scss';
+@import 'react-alice-carousel/lib/scss/alice-carousel.scss';
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 650px;
+  height: 400px;
+
+  .alice-carousel {
+    width: 500px;
+    .alice-carousel__wrapper {
+      border: 4px solid $green-mid;
+      border-radius: 20px;
+      overflow: hidden;
+
+      .item {
+        width: 500px;
+        height: 300px;
+
+        .item__image {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .carousel__buttons {
+    position: absolute;
+    top: calc(100% - 60%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    // background-color: red;
+
+    .button__left {
+      width: 40px;
+      height: 40px;
+      background: none;
+      border: none;
+      background-image: url('../../assets/icons/Left.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.2);
+        transform: translate(-5px);
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    .button__right {
+      width: 40px;
+      height: 40px;
+      background: none;
+      border: none;
+      background-image: url('../../assets/icons/Right.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      &:hover {
+        transform: translate(5px);
+      }
+      &:focus {
+        transform: scale(1.2);
+        outline: none;
+      }
+    }
+  }
+}
