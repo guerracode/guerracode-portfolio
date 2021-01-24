@@ -18,6 +18,7 @@ const Portfolio = () => {
               project,
             }}
             key={project.title}
+            style={{ textDecoration: 'none' }}
           >
             <article className="portfolio__project">
               <figure>

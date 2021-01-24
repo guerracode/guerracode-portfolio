@@ -37,6 +37,27 @@ export default {
         page: { text: 'page', url: 'http://www.event5.xyz/' },
       },
       {
+        title: 'Portfolio',
+        position: 'Frontend Developer',
+        description: 'My portfolio to show my work and who am I',
+        images: [
+          'https://res.cloudinary.com/guerracode/image/upload/v1611466725/guerracode/Portfolio/portfolio-1-min_vbuvxf.png',
+          'https://res.cloudinary.com/guerracode/image/upload/v1611466725/guerracode/Portfolio/portfolio-2-min_ytdm2e.png',
+          'https://res.cloudinary.com/guerracode/image/upload/v1611466725/guerracode/Portfolio/portfolio-3-min_c8vphg.png',
+          'https://res.cloudinary.com/guerracode/image/upload/v1611466725/guerracode/Portfolio/portfolio-4-min_neihuv.png',
+          'https://res.cloudinary.com/guerracode/image/upload/v1611466725/guerracode/Portfolio/portfolio-6-min_lv0ed6.png',
+          'https://res.cloudinary.com/guerracode/image/upload/v1611466725/guerracode/Portfolio/portfolio-5-min_ofoend.png',
+        ],
+        techTitle: 'Technologies',
+        technologies:
+          'JavaScript, React, Html, Css, Sass, Webpack, Babel, Eslint',
+        code: {
+          text: 'code',
+          url: 'https://github.com/guerracode/guerracode-portfolio',
+        },
+        page: { text: 'design', url: 'https://www.figma.com/file/IdmhTWlb6KEWZU6ICfRH14/guerracode?node-id=0%3A1' },
+      },
+      {
         title: 'Viuture',
         position: 'FullStack Developer',
         description:
@@ -109,7 +130,7 @@ export default {
           'JavaScript, React, Redux, Html, Css, Node, GraphQL, MongoDB, GCP.',
         code: {
           text: 'code',
-          url: 'https://devexp_jedp.gitlab.io/Pokedex101_Frontend/',
+          url: 'https://gitlab.com/pokedex-101',
         },
         page: {
           text: 'page',
@@ -197,8 +218,8 @@ export default {
           url: 'https://github.com/guerracode/FilteringTweets',
         },
         page: {
-          text: 'page',
-          url: 'https://to-do-guerracode.herokuapp.com/',
+          text: '',
+          url: '',
         },
       },
       {
@@ -217,8 +238,8 @@ export default {
           url: 'https://github.com/guerracode/FilteringTweets',
         },
         page: {
-          text: 'page',
-          url: 'https://to-do-guerracode.herokuapp.com/',
+          text: '',
+          url: '',
         },
       },
     ],

@@ -21,18 +21,22 @@ const Project = ({ location }) => {
           <p>{project.technologies}</p>
         </div>
         <div className="project__icons">
-          <div className="project__icons--icon">
-            <a href={project.code.url}>
-              <Github className="icon" />
-              <p>{project.code.text}</p>
-            </a>
-          </div>
-          <div className="project__icons--icon">
-            <a href={project.page.url}>
-              <Web className="icon" />
-              <p>{project.page.text}</p>
-            </a>
-          </div>
+          {project.code.text && (
+            <div className="project__icons--icon">
+              <a href={project.code.url} target="_blank" rel="noreferrer">
+                <Github className="icon" />
+                <p>{project.code.text}</p>
+              </a>
+            </div>
+          )}
+          {project.page.text && (
+            <div className="project__icons--icon">
+              <a href={project.page.url} target="_blank" rel="noreferrer">
+                <Web className="icon" />
+                <p>{project.page.text}</p>
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </div>

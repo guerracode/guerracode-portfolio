@@ -1,6 +1,7 @@
 @import '../App.scss';
 
 .navBar {
+  position: relative;
   display: grid;
   place-items: center;
   height: 100vh;
@@ -26,6 +27,23 @@
     &:hover {
       width: 55px;
       height: 55px;
+    }
+  }
+
+  .changeLanguage {
+    position: absolute;
+    bottom: 35px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+    color: $green-mid;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.1);
     }
   }
 }
