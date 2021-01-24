@@ -4,6 +4,7 @@ import spanish from '../data/spanish';
 
 const useInitialState = () => {
   const [state, setState] = useState(english);
+  const [project, setProject] = useState({});
   let language = true;
 
   const changeLanguage = () => {
@@ -15,6 +16,8 @@ const useInitialState = () => {
   return {
     state,
     changeLanguage,
+    project,
+    setProject,
   };
 };
 
