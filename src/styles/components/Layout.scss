@@ -1,7 +1,11 @@
 @import '../App.scss';
 
 .Main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
   display: flex;
+  width: 100vw;
   background-color: $black;
   background-image: url('../../assets/images/Background.png');
   background-size: cover;
@@ -11,20 +15,20 @@
 
   .Main__content {
     width: calc(100% - 105px);
-    height: 100vh;
+    height: 100%;
   }
 
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
 
     .Main__content {
-      height: calc(100vh - 100px);
+      height: calc(100% - 100px);
       width: 100vw;
     }
   }
   @media screen and (max-width: 425px) {
     .Main__content {
-      height: calc(100vh - 70px);
+      height: calc(100% - 70px);
     }
   }
 }
