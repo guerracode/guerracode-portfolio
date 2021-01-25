@@ -11,6 +11,7 @@
   .alice-carousel {
     width: 85%;
     max-width: 700px;
+    overflow: hidden;
     .alice-carousel__wrapper {
       border: 4px solid $green-mid;
       border-radius: 20px;
@@ -19,6 +20,7 @@
       .item {
         width: 100%;
         height: 350px;
+        overflow: hidden;
 
         .item__image {
           width: 100%;
