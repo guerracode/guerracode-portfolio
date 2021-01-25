@@ -1,0 +1,11 @@
+@import '../App.scss';
+
+.notfound {
+  @include section(5% 0 0 130px);
+  width: 100%;
+  height: 70%;
+
+  h2 {
+    @include title;
+  }
+}

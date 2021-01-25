@@ -1,5 +1,11 @@
 import React from 'react';
 
-const NotFound = () => <h1>NotFound</h1>;
+import '../styles/containers/NotFound.scss';
+
+const NotFound = () => (
+  <div className="notfound">
+    <h2>Sorry Page Not Found</h2>
+  </div>
+);
 
 export default NotFound;
