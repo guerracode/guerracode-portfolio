@@ -2,6 +2,12 @@
 
 .about {
   @include section(5% 0 0 130px);
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   h2 {
     @include title;
@@ -20,5 +26,31 @@
     font-weight: 400;
     line-height: 2.8rem;
     color: $white-grey;
+
+    @media screen and (max-width: 768px) {
+      width: 80%;
+      font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    img {
+      width: 150px;
+      height: 150px;
+      margin-top: 40px;
+      border-radius: 35px;
+    }
+    p {
+      font-size: 1.6rem;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    img {
+      width: 130px;
+      height: 130px;
+      border-radius: 25px;
+    }
+    p {
+      font-size: 1.4rem;
+    }
   }
 }

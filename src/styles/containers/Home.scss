@@ -23,4 +23,54 @@
     line-height: 2.8rem;
     color: $white-grey;
   }
+
+  @media screen and (max-width: 1024px) {
+    padding-top: 25%;
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 5rem;
+      line-height: 7rem;
+    }
+    h3 {
+      font-size: 3.5rem;
+      line-height: 4rem;
+    }
+    p {
+      font-size: 2rem;
+      line-height: 2.8rem;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    padding-top: 200px;
+    h1 {
+      font-size: 3rem;
+      line-height: 5rem;
+    }
+    h3 {
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+    p {
+      font-size: 1.6rem;
+      line-height: 2rem;
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    h1 {
+      font-size: 2.5rem;
+      line-height: 4.5rem;
+    }
+    h3 {
+      font-size: 1.8rem;
+      line-height: 2rem;
+    }
+    p {
+      font-size: 1.6rem;
+      line-height: 2rem;
+      margin-bottom: 30px;
+    }
+  }
 }

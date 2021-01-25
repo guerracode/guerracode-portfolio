@@ -24,7 +24,7 @@ const NavBar = () => {
     <nav className="navBar">
       {location.pathname === '/project' ? (
         <Link to="/portfolio">
-          <BackIcon width="70px" height="70px" />
+          <BackIcon className="navBar__backIcon" />
         </Link>
       ) : (
         <>

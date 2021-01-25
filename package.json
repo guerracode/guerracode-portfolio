@@ -1,7 +1,7 @@
 {
   "name": "guerracode-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "my portfolio",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
