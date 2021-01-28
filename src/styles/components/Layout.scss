@@ -7,12 +7,12 @@
   display: flex;
   width: 100vw;
   background-color: $black;
-  background-image: url('../../assets/images/Background.png');
+  background-image: url('../../assets/images/Background.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  overflow-x:hidden;
+  overflow-x: hidden;
 
   .Main__content {
     width: calc(100% - 105px);
